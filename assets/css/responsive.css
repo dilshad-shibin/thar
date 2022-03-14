@@ -198,8 +198,13 @@
         font-size: 12px;
     }
     .navbar-brand:last-child{
-        padding-left: 100px;
+        padding-left: 0px;
         margin-top: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 100%;
+        margin-right: 0;
     }
     .navbar-brand img{
         max-width: 100px;
@@ -225,7 +230,7 @@
     }
     .open-md{
         display: block !important;
-        margin-top: 245px;
+        margin-top: 30px;
     }
     .era-area {
         margin-top: 30px;
