@@ -111,8 +111,7 @@
         // navText: ['<i class="fas fa-caret-left" aria-hidden="true"></i>','<i class="fas fa-caret-right" aria-hidden="true"></i>'],
         responsive: {
             0: {
-                items: 1,
-                nav: false
+                items: 1
             },
             576: {
                 items: 1
@@ -167,8 +166,7 @@
                 // navText: ["<i class='icofont-arrow-left'></i>", "<i class='icofont-arrow-right'></i>"],
                 responsive: {
                     0: {
-                        items: 1,
-                        nav: false
+                        items: 1
                     },
                     576: {
                         items: 1

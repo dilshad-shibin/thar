@@ -187,7 +187,7 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: 0;
-        background: linear-gradient(to right, #3a80ff 0%, transparent 100%);
+        background: linear-gradient(to right, #e41c38 0%, transparent 100%);
         z-index: 99;
         bottom: -12px;
     }
@@ -197,8 +197,12 @@
     .navbar-nav li a{
         font-size: 12px;
     }
+    .navbar-brand:last-child{
+        padding-left: 100px;
+        margin-top: 13px;
+    }
     .navbar-brand img{
-        max-width: 130px;
+        max-width: 100px;
     }
     .navbar{
         flex-direction: column;
@@ -206,10 +210,66 @@
     .book-btn{
         display: none;
     }
+    .navbar-sticky{
+        display: none;
+    }
     .hero{
+        height: 530px;
+    }
+    .hero-img img {
+        max-width: 270px;
+        margin-top: 160px
+    }
+    .p-o-md{
+        padding: 0 !important;
+    }
+    .open-md{
+        display: block !important;
+        margin-top: 245px;
+    }
+    .era-area {
+        margin-top: 30px;
+        padding-left: 0;
+        position: relative;
+    }
+    .parts-row{
+        margin: 0 12px;
+        padding: 40px 20px;
+    }
+    .parts-box{
+        margin-bottom: 50px;
+    }
+    .parts-area{
+        padding-bottom: 85px;
+    }
+    .ncap-head .logo img{
+        max-width: 270px;
+    }
+
+    .ncap-head .star img{
+        max-width: 160px;
+    }
+    .ncap-text h1{
+        font-size: 28px;
+    }
+    .ncap-text p{
+        font-size: 16px;
+    }
+    .ncap-img{
+        background-image: none;
+        height: auto;
+        width: 100%;
+    }
+    .ncap-img img{
+        display: block !important;
+    }
+    .modal-heading h3{
+        font-size: 22px;
+    }
+    /* .hero{
         background-position: 66% center;
         background-image: url(../images/bg/banner.jpg);
-    }
+    } */
     .hero-img{
         display: block;
     }
@@ -229,10 +289,6 @@
     .hero-text .hero-head h2,
     .hero-text .hero-head h2 span{
         font-size: 20px;
-    }
-    .hero-img img{
-        max-width: 350px;
-        margin-top: 40px;
     }
     .banner-form{
         margin-top: -70px;
@@ -336,9 +392,20 @@
         top: 0;
     }
     .feature-slider .owl-nav{
-        bottom: -100px;
+        /* bottom: -100px;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); */
+    }
+    .feature-slider .owl-nav button.owl-prev{
+        position: relative;
+        left: inherit;
+        top: inherit;
+    }
+
+    .feature-slider .owl-nav button.owl-next{
+        position: relative;
+        right: inherit;
+        top: inherit;
     }
     .features-area{
         padding-bottom: 150px;
@@ -361,5 +428,76 @@
         align-items: center;
         max-width: 100%;
         flex: 100%;
+    }
+}
+
+@media(max-width: 575px){
+    .thar-midle{
+        height: 350px;
+    }
+    .varian-box{
+        flex-direction: column;
+    }
+    .thar-name{
+        flex: 100%;
+        padding: 50px 20px;
+    }
+    .thar-name .name,
+    .thar-name .rate{
+        margin-bottom: 35px;
+    }
+    .thar-slide-btn {
+        margin-bottom: 0px;
+    }
+    .thar-slide-btn a{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .pl-md-0{
+        padding-left: 0 !important;
+        margin-top: 8px;
+    }
+    .thar-details{
+        padding: 50px;
+    }
+    .feature-box .nav-tabs li{
+        width: 100%;
+    }
+    .div-feature{
+        margin-bottom: 30px;
+    }
+    .variants-areas{
+        margin-top: -140px;
+    }
+    .features-area {
+        padding-bottom: 30px;
+    }
+    .contact-banner{
+        width: initial;
+    }
+    .contact-section {
+        padding: 50px 0 40px;
+    }
+    .contact-inner h1{
+        font-size: 22px;
+    }
+    .contact-footer{
+        flex-direction: column;
+    }
+    .contact-support{
+        margin-bottom: 30px;
+        border-right: none;
+        text-align: center;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .contact-area{
+        text-align: center;
+    }
+    .footer-bg{
+        padding-bottom: 0;
+    }
+    .contact-footer{
+        margin-bottom: 25px;
     }
 }
