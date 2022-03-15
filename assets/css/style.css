@@ -1111,16 +1111,13 @@ form input.inp::placeholder{
     right: -34px;
     padding: 10px 25px 10px;
     border-radius: 4px;
-    background: #ed1c24;
+    background: #e41c38;
     font-size: 19px;
     font-weight: bold;
     color: #fff;
-    z-index: 99;
+    z-index: 99999;
     text-transform: uppercase;
     transform: rotate(-90deg);
     letter-spacing: 3px;
-}
-
-.enq-side a{
-    display: none;
+    display: block;
 }
