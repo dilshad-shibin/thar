@@ -673,10 +673,24 @@ form input.inp::placeholder{
 .div-feature{
     background-color: #fff;
     padding: 30px;
+    min-height: auto;
 }
 
 .div-feature .img{
     margin-bottom: 20px;
+}
+
+.single-feature .text h3{
+    color: #051137;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.single-feature .text p{
+    color: #051137;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 /* Footer */
